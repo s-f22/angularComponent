@@ -3,11 +3,8 @@ import { Component } from '@angular/core'
 @Component({
 
   selector: 'ola-angular',
-  template: `
-  <div style="width: 1280px; margin: auto; text-align: center">
-  
- </div>
- `
+  templateUrl: './ola-angular.component.html',
+  styleUrls: ['./ola-angular.component.css']
 })
 
 export class OlaAngularComponent {
